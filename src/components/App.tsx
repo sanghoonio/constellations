@@ -3,7 +3,7 @@ import { useState } from 'react'
 import About from './About';
 import Concept from './Concept';
 
-import readmeData from '../assets/readme.json';
+// import readmeData from '../assets/readme.json';
 
 function App() {
 
@@ -60,7 +60,7 @@ function App() {
 
             <div className='collapse no-transition pt-0 pb-3 px-3 show' id='about' data-bs-parent='#parent'>
               <div className='page-width'>
-                <About ReadmeData={readmeData} />
+                <About />
               </div>
             </div>
             <div className='collapse no-transition pt-0 pb-3 px-3' id='concept' data-bs-parent='#parent'>
