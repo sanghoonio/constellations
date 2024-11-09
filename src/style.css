@@ -4,7 +4,7 @@
 
 /* MAIN */
 
-main, p, span, button, a {
+main, p, span, button, a, ul, li {
   font-family: 'Baloo 2', arial, sans-serif !important;
   font-weight: 400 !important;
   font-style: normal !important;
@@ -14,6 +14,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Baloo 2', arial, sans-serif  !important;
   font-weight: 450 !important;
   font-style: normal  !important;
+}
+
+ol, ul, dl {
+  margin-bottom: 0 !important;
 }
 
 .text-xs {
@@ -28,4 +32,11 @@ h1, h2, h3, h4, h5, h6 {
 .no-transition.collapsing {
   transition: none !important;
   display: none;
+}
+
+
+.btn-gradient-2 {
+  background: linear-gradient(to top, white, silver) border-box;
+  border-radius: 5rem;
+  border: 0.25rem solid transparent;
 }
