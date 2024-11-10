@@ -1,6 +1,7 @@
 import React from 'react';
 
-import spaceBackground from '../assets/space.jpg';
+import StarField from './StarField';
+// import spaceBackground from '../assets/space.jpg';
 
 const Concept: React.FC = () => {
   
@@ -13,7 +14,7 @@ const Concept: React.FC = () => {
             className='btn-gradient-2' 
             style={{height: '88.8vh'}}
           >
-            <div 
+            {/* <div 
               className='h-100' 
               style={{
                 borderRadius: '4.75rem', 
@@ -23,7 +24,9 @@ const Concept: React.FC = () => {
                 backgroundRepeat: 'repeat'
               }}
             >
-            </div>
+            </div> */}
+
+            <StarField></StarField>
             
           </div>
         </div>
