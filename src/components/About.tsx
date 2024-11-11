@@ -1,34 +1,5 @@
 import React from 'react';
 
-// interface ReadmeData {
-//   overview: string[];
-//   design: string[];
-//   development: string[];
-// }
-
-// interface Props {
-//   ReadmeData: ReadmeData;
-// }
-
-// const parseLines = (section: string[]) => {
-//   const lines = (section + '').split('\n');
-//   const elements: JSX.Element[] = [];
-
-//   lines.forEach((line, index) => {
-//     if (/^\d{4,}/.test(line)) {
-//       elements.push(<h6 key={index} className='mb-0 pt-0 position-relative'>{line}</h6>);
-//     } else if (/^[A-Za-z0-9]/.test(line)) {
-//       elements.push(<h6 key={index} className='my-0 pt-0 position-relative'>{line}</h6>);
-//     } else if (/^-/.test(line)) {
-//       elements.push(<p key={index} className='my-0 p-0 ms-4 indent position-relative'>{line}</p>);
-//     } else if (/^\s{2,}/.test(line)) {
-//       elements.push(<p key={index} className='my-0 p-0 ps-4 ms-4 indent position-relative'>{line}</p>);
-//     }
-//   });
-
-//   return elements;
-// };
-
 const About: React.FC = () => {
   
   return (
@@ -40,8 +11,7 @@ const About: React.FC = () => {
             <div className='row d-flex justify-content-center'>
 
               <div 
-                className='col-xs-6 col-lg-9 col-12 rounded rounded-4 p-3'
-                style={{color: 'goldenrod', textShadow: 'goldenrod 0px 0px 10px'}}
+                className='col-xs-6 col-lg-9 col-12 rounded rounded-4 p-3 text_goldenrod'
               >
                 <h3>Constellations</h3>
 

@@ -34,14 +34,33 @@ ol, ul, dl {
   display: none;
 }
 
-.btn-gradient-2 {
+.window_border {
   background: linear-gradient(to top, white, silver) border-box;
   border-radius: 5rem;
   border: 0.25rem solid transparent;
 }
 
+.btn_goldenrod {
+  color: dimgray !important;
+}
 
-/* stars */
+.btn_goldenrod:hover,
+.btn_goldenrod.active,
+.text_goldenrod {
+  color: goldenrod !important;
+}
+
+.btn_goldenrod:hover,
+.btn_goldenrod.active {
+  text-shadow: goldenrod 0 0 5px;
+}
+
+.text_goldenrod {
+  text-shadow: goldenrod 0 0 10px;
+}
+
+
+/* STARS */
 
 .floating-controls {
   position: absolute;
