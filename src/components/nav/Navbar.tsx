@@ -4,11 +4,12 @@ function Navbar() {
 
   const location = useLocation().pathname;
 
+  console.log(location)
   return (
     <>
       <div className='text-center text-light pt-3'>
         <p className="d-inline-flex gap-2">
-          <a
+          {/* <a
             className={`btn btn-outline-black btn_goldenrod ${location === '/constellations/' ? 'active' : ''}`}
             href='/constellations/'
           >
@@ -17,6 +18,18 @@ function Navbar() {
           <a
             className={`btn btn-outline-black btn_goldenrod ${location === '/constellations/concept' ? 'active' : ''}`}
             href='/constellations/concept'
+          >
+            Concept
+          </a> */}
+          <a
+            className={`btn btn-outline-black btn_goldenrod ${location === '/' ? 'active' : ''}`}
+            href='/constellations/'
+          >
+            Overview
+          </a>
+          <a
+            className={`btn btn-outline-black btn_goldenrod ${location === '/concept' ? 'active' : ''}`}
+            href='/constellations/#/concept'
           >
             Concept
           </a>
